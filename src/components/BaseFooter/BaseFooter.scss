@@ -1,0 +1,42 @@
+.base-footer {
+  background-color: #424141;
+
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 23px 0;
+  }
+
+  &__mobile {
+
+    &__top-container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+    }
+
+    &__middle-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 20px;
+    }
+
+    &__bottom-container {
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .base-footer {
+
+    &__container {
+      justify-content: center;
+    }
+  }
+}

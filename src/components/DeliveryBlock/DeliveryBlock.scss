@@ -1,0 +1,103 @@
+.delivery-block {
+  position: relative;
+
+  &__container {
+    display: flex;
+  }
+
+  &__text {
+    margin-right: 20px;
+
+    &__about-delivery {
+
+      &__title {
+        margin-top: 40px;
+        font-size: 42px;
+      }
+
+      &__text {
+        margin-top: 30px;
+        font-size: 20px;
+        line-height: 28px;
+      }
+    }
+
+    &__steps-delivery {
+      margin-top: 36px;
+
+      &__step {
+        margin-bottom: 56px;
+        display: flex;
+        align-items: center;
+
+        &__icon {
+          margin-right: 5px;
+        }
+
+        &__text {
+          font-weight: 300;
+        }
+      }
+    }
+
+    &__contacts-company {
+      display: flex;
+
+      &__contact {
+        max-width: 340px;
+        background-color: #F8F8F8;
+
+        &__container {
+          padding: 60px;
+        }
+
+        &__main-text {
+          text-align: center;
+          font-weight: 500;
+          font-size: 18px;
+        }
+
+        &__text {
+          margin-top: 24px;
+          text-align: center;
+          color: #848692;
+          font-size: 16px;
+        }
+
+        &:first-child {
+          margin-right: 20px;
+        }
+      }
+    }
+  }
+
+  &__delivery-map {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+
+
+@media (max-width: 1024px) {
+  .delivery-block {
+
+    &__container {
+      flex-direction: column;
+    }
+
+    &__text {
+
+      &__contacts-company {
+
+        &__contact {
+
+          &__container {
+            padding: 30px;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,22 @@
+.base-header {
+  position: absolute;
+  z-index: 10;
+  width: 100%;
+  padding: 20px 0;
+
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    z-index: 11;
+  }
+
+  &__logo-block {
+    margin-right: 60px;
+  }
+
+  &__burger__button {
+    max-height: 25px;
+  }
+}

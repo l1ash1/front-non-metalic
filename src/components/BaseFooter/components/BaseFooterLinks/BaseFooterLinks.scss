@@ -1,0 +1,23 @@
+.base-footer-links {
+  display: flex;
+  align-items: center;
+
+  &__link {
+    padding: 0 25px;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+  }
+}
+
+@media (max-width: 1024px) {
+
+  .base-footer-links {
+
+    &__link {
+      padding: 0 15px;
+      font-size: 12px;
+    }
+  }
+}

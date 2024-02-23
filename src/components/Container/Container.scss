@@ -1,0 +1,27 @@
+.common-container {
+  padding: 0 250px;
+}
+
+.common-wrapper {
+  max-width: 1420px;
+  margin: 0 auto;
+}
+
+@media (max-width: 1440px) {
+  .common-container {
+    padding: 0 100px;
+  }
+}
+
+@media (max-width: 1280px) {
+  .common-container {
+    padding: 0 50px;
+  }
+}
+
+@media (max-width: 768px) {
+  .common-container {
+    padding: 0 16px;
+  }
+}
+

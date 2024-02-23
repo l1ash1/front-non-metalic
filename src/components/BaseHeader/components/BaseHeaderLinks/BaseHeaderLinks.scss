@@ -1,0 +1,17 @@
+.base-header-links {
+  display: flex;
+  align-items: center;
+
+  &__link {
+    padding: 10px 24px;
+    text-decoration: none;
+    color: #1D1D1B;
+    size: 16px;
+    font-weight: 400;
+  }
+
+  .active {
+    color: #27AE60;
+  }
+}
+
